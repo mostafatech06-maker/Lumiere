@@ -353,6 +353,180 @@ body {
 }
 
 
+.menu {
+  padding-top: 120px;
+  padding-bottom: 40px;
+  padding-right: 0;
+  padding-left: 0;
+  min-height: 800px;
+}
+
+
+.menu-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+
+.menu-header {
+  text-align: center;
+  margin-bottom: 40px
+}
+
+
+.menu-header h2 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+
+.menu-subtitle {
+  font-size: 14px;
+  color: var(--gold);
+  letter-spacing: 4px;
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  display: block;
+  margin-top: 15px;
+}
+
+
+.menu-divider {
+  width: 60px;
+  height: 1px;
+  background-color: var(--gold);
+  margin: 30px auto;
+}
+
+
+.menu-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 30px;
+  margin-bottom: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  grid: 15px;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed var(--border-color);
+  transition: transform var(--transition-fast), opacity var(--transition-fast);
+  opacity: 0.8;
+  transform: translateY(20px);
+}
+
+
+.menu-item:hover {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+.menu-item:active {
+  display: flex;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+
+.item-header h3 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: 24px;
+}
+
+
+.item-price {
+  font-size: 18px;
+  color: var(--gold);
+  font-family: var(--font-serif);
+}
+
+
+.item-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.item-details p {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+
+.gallery {
+  padding: 0;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,300px);
+}
+
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.gallery-item.large {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+
+.gallery-item.wide {
+  grid-column: span 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
