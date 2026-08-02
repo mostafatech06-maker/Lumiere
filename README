@@ -1,0 +1,25 @@
+# Lumière Restaurant Website
+
+Hi! This is my simple website project for a Restaurant called **Lumière**. I bulit this project to practice Html and Css.
+
+
+## sections in website
+* **Home:** welcome banner and quick links.
+* **About:** Info and stats about the restaurant.
+* **Menu:** List of food, desserts, and drinks with prices.
+* **Gallery:** Photos of the place.
+* **Reservations:** Form to book a table.
+* **Footer:** Opening hours and contact info.
+
+## Technologies Used
+* **HTML5:** For the page structurp.
+* **CSS3:** For styling and design.
+
+## How to Run
+1. Download or clone the project files.
+2. Double click on `index.html` to open it in any web browser.
+
+
+---
+
+*Made with as my beginner project*
