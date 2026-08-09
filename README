@@ -1,28 +1,25 @@
 # LUMIÈRE
 
-## Description
-
-Lumière is a fine dining restaurant website designed with only HTML & CSS. The site showcases the restaurant's premium offerings, including an menu, reservation system, and visual gallery.
+This is a sleek, modern fine dining restaurant website built purely with HTML and CSS. No heavy frameworks or complicated JavaScript just clean code, smooth styling, and a polished visual layout designed to bring a high-end restaurant experience to life online.
 
 ## Features
-
 ### Hero Section
-- Landing page with call-to-action buttons for reservations and menu exploration.
+An inviting landing page featuring clear call-to-action buttons that push visitors toward reserving a table or checking out the menu.
 
-### About Section
-- Detailed information about the restaurant's passion for perfection, including years of excellence, number of dishes, Michelin stars, and customer satisfaction.
+### Our Story (About Section)
+A dedicated area spotlighting the culinary vision behind Lumière, complete with key stats like years of experience, signature dish counts, Michelin stars, and overall guest satisfaction.
 
-### Menu
-- Interactive display of signature dishes, including appetizers, mains, desserts, and beverages with pricing.
+### Interactive Menu
+A organized view of the restaurant's signature offerings, categorized into appetizers, main courses, desserts, and drinks, all complete with pricing.
 
-### Gallery
-- Visual showcase of the restaurant's ambiance and dishes.
+### Visual Gallery
+A high-res photo grid showcasing the restaurant’s cozy ambiance and artfully plated dishes.
 
-### Reservations
-- User-friendly form for booking tables, including date, time, number of guests, and special requests.
+### Table Reservations
+A clean, easy-to-use booking form where guests can select dates, times, party sizes, and drop in special requests.
 
 ### Newsletter Signup
-- Subscription form for updates on seasonal menus, events, and tastings.
+A quick form allowing guests to subscribe for seasonal menu drops, exclusive events, and private tasting invites.
 
-### Contact & Footer
-- Complete contact information, opening hours, and social links.
+### Location & Footer
+Everything guests need to get in touch or visit in person, including operating hours, location details, and social media links.
